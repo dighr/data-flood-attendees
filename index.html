@@ -110,7 +110,7 @@
                 let section = document.createElement('section'); 
                    
                 
-                if (array[i][5] != "  ") {
+                if (array[i][5] != "") {
                     let div = document.createElement("div");
                     div.className += "col-md-3";
                     
@@ -166,7 +166,7 @@
                     
                     let textContainer = document.createElement('span');
                     let twitterText = document.createTextNode(array[i][6]);
-                    if (array[i][6].charAt(1) !== "@") {
+                    if (array[i][6].charAt(0) !== "@") {
                         let str = array[i][6].replace(/\s+/g, '');;
                         twitterText = document.createTextNode('@' + str)
                     }
