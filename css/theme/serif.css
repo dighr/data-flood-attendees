@@ -315,14 +315,22 @@ text-align: left;}
 }
 
 .header_title h2 {
-    font-size: 24px!important;
+    font-size: 30px!important;
 
 }
 .footer_title {
     position: absolute;
     bottom: 10px;
     left: 30px;
+    font-size:30px;
 }    
+
+.footer_link {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size:24px;
+} 
 
 .reveal .playback {
   display: none;
@@ -331,4 +339,12 @@ text-align: left;}
 
 .reveal .controls {
     display: none!important;
+}
+
+.header_link {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 100;
+    font-size: 30px!important;
 }
